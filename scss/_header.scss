@@ -1,0 +1,49 @@
+.cabecalho {
+  padding: 2.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+
+  .menu {
+    .menu-list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      li {
+
+        a {
+          transition: color 0.5s ease;
+          color: $-cor-light;
+          font-size: 1.8rem;
+          text-transform: capitalize;
+          
+        }
+
+
+        &:first-child {
+          a {
+            &.ativo {
+              color: $-cor-hover;
+              font-weight: bold;
+            }
+          }
+        }
+
+        &:not(:last-child) {
+          margin-right: 1.8rem;
+        }
+
+        &:hover {
+          a {
+            color: $-cor-secundaria;
+          }
+        }
+
+       
+      }
+    }
+  }
+}

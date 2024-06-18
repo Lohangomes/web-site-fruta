@@ -1,0 +1,37 @@
+@media (min-width: 760px) {
+  main {
+    .reaproveitando-alimentos {
+      p {
+        font-size: 8rem;
+      }
+    }
+
+    .economizar {
+      h1 {
+        font-size: 5rem;
+      }
+
+      p {
+        font-size: 2.8rem;
+      }
+    }
+
+    .receitas {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .quem-somos {
+      .perfil {
+        justify-content: space-around;
+        flex-direction: row;
+      }
+
+      .quem-somos-conteudo {
+        h2 {
+          font-size: 4.2rem;
+        }
+      }
+    }
+  }
+}

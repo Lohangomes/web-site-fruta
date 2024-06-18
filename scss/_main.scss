@@ -1,0 +1,122 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  // font-family: Pacifico;
+}
+
+main {
+  .reaproveitando-alimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 48.8rem;
+
+    p {
+      font-family: Pacifico;
+      font-size: 4rem;
+      text-align: center;
+      color: #ffff;
+    }
+  }
+
+  .economizar {
+    padding: 3.5rem 3rem;
+    text-align: center;
+
+    h1 {
+      font-family: Pacifico;
+      font-size: 2.5rem;
+      color: $cor-primaria;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+      color: $-cor-light;
+    }
+  }
+
+  .receitas {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    background-color: $-cor-fundo-receitas;
+    padding: 4rem 3rem;
+
+    .receitas-descricao {
+      max-width: 56.7rem;
+      background-color: #ffff;
+
+      .img-div {
+        width: 100%;
+      }
+
+      .receita-conteudo {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+
+        gap: 2rem;
+
+        a {
+          text-align: center;
+          width: 11.5rem;
+          padding: 8px 1.4rem;
+          background-color: $cor-primaria;
+          color: #ffff;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .quem-somos {
+    display: flex;
+    flex-flow: column;
+    gap: 4rem;
+    text-align: center;
+    padding: 4rem 3rem;
+
+    .quem-somos-conteudo {
+      h2 {
+        font-family: Pacifico;
+        font-size: 2.5rem;
+        color: $cor-primaria;
+        margin-bottom: 1.4rem;
+      }
+    }
+
+    .perfil {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 4.5rem;
+
+      .caixa-perfil {
+        display: flex;
+        flex-flow: column;
+        gap: 1rem;
+
+        span {
+          color: $-cor-light;
+          &:nth-last-of-type(2) {
+            font-family: Pacifico;
+            font-size: 3.2rem;
+            color: $cor-primaria;
+          }
+        }
+
+        img {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
